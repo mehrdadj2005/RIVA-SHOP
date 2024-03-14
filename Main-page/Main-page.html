@@ -2,14 +2,266 @@
 <html lang="en">
 
 <head>
+    <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="../Libraries/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../sass/Main-page.css">
+    <link rel="stylesheet" href="../icons/icons-1.11.3/icons-1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- My css file -->
     <link rel="stylesheet" href="Main-page.css">
     <title>Main Riva</title>
 </head>
 
-<body>
+<body class="bg-light">
+    <header>
+        <!--  -->
+        <div class="bg-dark" id="headerUp">
+            <div class="container  text-light d-flex justify-content-between">
+                <div>
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active p-3 text-white" id="nav-home-tab" data-bs-target="#nav-home"
+                                data-bs-toggle="tab" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">WOMEN</button>
+
+                            <button class="nav-link p-3 text-white" id="nav-about-tab" data-bs-target="#nav-about"
+                                data-bs-toggle="tab" type="button" role="tab" aria-controls="nav-about"
+                                aria-selected="false">KIDS</button>
+
+                            <button class="nav-link p-3 text-white" id="nav-info-tab" data-bs-target="#nav-info"
+                                data-bs-toggle="tab" type="button" role="tab" aria-controls="nav-info"
+                                aria-selected="false">RIVA HOME</button>
+                        </div>
+                    </nav>
+                </div>
+                <div class="p-3">
+                    <a href="" class="text-decoration-none text-white"><span class="ms-3">International <i
+                                class="bi bi-chevron-down"></i></span></a>
+                    <a href="" class="text-decoration-none text-white"><span class="ms-3">USD $ <i
+                                class="bi bi-chevron-down"></i></span></a>
+                    <a href="" class="text-decoration-none text-white"><span class="ms-3">English <i
+                                class="bi bi-chevron-down"></i></span></a>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="container">
+            <div class="row" id="middleHeader">
+                <div class="col-4 text-center"></div>
+
+                <div class="col-4 text-center"><img id="logo-header" src="../images/LogoEN3X.webp" alt=""></div>
+
+                <div class="col-4 d-flex justify-content-end">
+                    <i class="bi bi-search m-3 mx-2 d-flex"></i>
+                    <i class="bi bi-person-circle m-3 mx-2 d-flex"></i>
+                    <i class="bi bi-heart m-3 mx-2 d-flex"><span
+                            class="bg-dark text-white px-2 rounded-pill py-0 ">0</span></i>
+                    <i class="bi bi-bag-dash m-3 ms-3 mx-2 d-flex"><span
+                            class="bg-dark text-white px-2 rounded-pill py-0 ">0</span></i>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div id="headerBottom" class="border-top border-bottom border-grey border-1 pt-3 shadow-sm">
+            <div class=" container w-75">
+                <ul class="d-flex justify-content-around">
+                    <li><a href="" class="text-decoration-none text-dark"><span>New In</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Clothing</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Shoes</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Accessories & Bags</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Hijab</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Brands</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>SS24</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Ramadan 2024</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>Shop By Style</span></a></li>
+                    <li><a href="" class="text-decoration-none text-dark"><span>SALE</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <body>
+
+        <!--  -->
+        <!-- <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="#nav-home-tab">
+            </div>
+            <div class="tab-pane fade p-3" id="nav-about" role="tabpanel" aria-labelledby="#nav-about-tab"></div>
+            <div class="tab-pane fade p-3" id="nav-info" role="tabpanel" aria-labelledby="#nav-info-tab"></div>
+        </div> -->
+        <div class="container d-flexf align-center py-3 w-75">
+            <small>Home ></small>
+            <small>WOMEN ></small>
+            <small>Clothing ></small>
+            <small class="fw-light">Dresses</small>
+        </div>
+        <div class="container text-light text-center mt-4 bg-white mx-0" id="section-card-shop">
+            <div class="row justify-content-center g-4 mx-auto">
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="col col-6 col-md-3 m-2 text-center">
+                    <div>
+                        <a href="">
+                            <i class="bi bi-heart m-2 text-dark"></i>
+                            <img src="../images/images-main-page/1-d2_rst1_no_103101-24061_fuchsia_dress__1.jpg"
+                                class="w-100"></a>
+                    </div>
+                    <a href="" class="text-decoration-none">
+                        <p class="text-dark mt-4">Shawl Collar Wrap Dress<br>
+                            $67.93</p>
+                    </a>
+                </div>
 
 
+            </div>
+        </div>
+    </body>
+
+
+
+    <!-- JS Bootstrap -->
     <script src="../Libraries/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
     <script src="Main-page.js"></script>
 </body>

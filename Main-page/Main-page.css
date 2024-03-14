@@ -1,0 +1,63 @@
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 100% !important;
+}
+
+header #nav-tab {
+    border: none;
+}
+
+header button {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+header button:hover {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+header button.active {
+    color: #000 !important;
+}
+
+header #headerUp i {
+    font-size: 70%;
+}
+
+header #middleHeader i {
+    font-size: 3vh !important;
+    position: relative;
+
+}
+
+header #middleHeader i span {
+    position: absolute;
+    bottom: 60%;
+    left: 80%;
+    font-size: 2vh;
+}
+
+#headerUp button:focus {
+    color: #000 !important;
+}
+
+#logo-header {
+    width: 40%;
+}
+
+#section-card-shop>div>div>div {
+    position: relative;
+}
+
+#section-card-shop i {
+    position: absolute;
+    transition-duration: 0.5s;
+}
+
+#section-card-shop i:hover {
+    color: rgb(180, 151, 87) !important;
+}
